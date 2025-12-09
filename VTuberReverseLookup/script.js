@@ -11,5 +11,12 @@ function findAllMatchIdsEfficiently(arr, keyword) {
     return hitIds;
 }
 
-keyword = ""
-findAllMatchIdsEfficiently(data, keyword)
+function main(){
+  result = findAllMatchIdsEfficiently(data, searchElement.value)
+  alert(result)
+}
+
+const searchElement = document.getElementById("search")
+const btnElement = document.getElementById("btn")
+
+btnElement.addEventListener("click", main)
