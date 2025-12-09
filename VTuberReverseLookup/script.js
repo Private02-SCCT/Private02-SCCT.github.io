@@ -11,5 +11,5 @@ function findAllMatchIdsEfficiently(arr, keyword) {
     return hitIds;
 }
 
-keyword = "しぐれうい"
-alert(findAllMatchIdsEfficiently(data, keyword))
+keyword = ""
+findAllMatchIdsEfficiently(data, keyword)
