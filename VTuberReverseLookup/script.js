@@ -13,6 +13,7 @@ function findAllMatchIdsEfficiently(arr, keyword) {
 
 
 function main(){
+  alert("debug_result")
   result = fuse.search(keyword);
   // result = findAllMatchIdsEfficiently(data, searchElement.value)
   alert(result)
