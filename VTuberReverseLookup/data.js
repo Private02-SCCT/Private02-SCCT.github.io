@@ -9,6 +9,7 @@ const data = [
             fn:"",
             agency:"",
             streamtag:"",
+            group:"",
             SNS:{
                 X:["",""],
                 YouTube:[""],
