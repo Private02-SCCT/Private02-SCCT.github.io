@@ -1,19 +1,31 @@
 const data = [
     {
-        name: "",
-        furigana:"",
-        metadata: {
-            type:"",
-            fa:"",
-            fm:"",
-            fn:"",
-            agency:"",
-            streamtag:"",
-            group:"",
-            SNS:{
-                X:["",""],
-                YouTube:[""],
-            }
+        name: "大空スバル",
+        furigana:"OozoraSubaru",
+        type:"VTuber",
+        fa:"プロテインザスバル",
+        fm:"🚑",
+        fn:"スバ友",
+        production:"ホロライブ",
+        streamtag:"生スバル",
+        group:"2期生",
+        SNS:{
+            X:["oozorasubaru"],
+            YouTube:["OozoraSubaru"],
         }
-    }
+    },
+        {
+        name: "しぐれうい",
+        furigana:"ShigureUi",
+        type:"イラストレーター",
+        fa:"ういしぐれぇ",
+        fm:"🌂",
+        fn:"",
+        production:"無所属",
+        streamtag:"ういの校内放送",
+        group:"",
+        X:["ui_shig"],
+        YouTube:["ui_shig"],
+    },
 ]
+

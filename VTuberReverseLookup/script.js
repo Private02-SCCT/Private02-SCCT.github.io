@@ -1,7 +1,15 @@
-const keyword = 'app';
+function findAllMatchIdsEfficiently(arr, keyword) {
+    const lowerCaseKeyword = keyword.toLowerCase();
+    const hitIds = [];
+    
+    arr.forEach((item, index) => {
+        const itemString = JSON.stringify(item).toLowerCase();
+        if (itemString.includes(lowerCaseKeyword)) {
+            hitIds.push(index);
+        }
+    });
+    return hitIds;
+}
 
-const results = data.filter(item => {
-  return item.name.includes(keyword) || item.category.includes(keyword);
-});
-
-// 出力: [ { id: 1, name: 'Apple', category: 'Fruit' }, { id: 4, name: 'Avocado', category: 'Fruit' } ]
+keyword = "しぐれうい"
+alert(findAllMatchIdsEfficiently(data, keyword))
