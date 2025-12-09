@@ -11,11 +11,16 @@ function findAllMatchIdsEfficiently(arr, keyword) {
     return hitIds;
 }
 
+
 function main(){
-  result = findAllMatchIdsEfficiently(data, searchElement.value)
+  result = fuse.search(keyword);
+  // result = findAllMatchIdsEfficiently(data, searchElement.value)
   alert(result)
 }
 
+
+const options = { keys: ["name", "furigana", "type","fa","fm","fn","production","streamtag","group"], includeScore: true };
+const fuse = new Fuse(data, options);
 const searchElement = document.getElementById("search")
 const btnElement = document.getElementById("btn")
 
