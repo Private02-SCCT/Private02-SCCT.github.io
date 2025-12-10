@@ -33,13 +33,14 @@ function handleSearch() {
 
     const keyword = searchInput.value.trim();
 
+    resultsDiv.innerHTML = '';
+    const searchResults = fuseInstance.search(keyword);
+    let gridData = [];
+
     if (keyword.length === 0) {
         resultsDiv.textContent = 'キーワードを入力してください。';
         return;
     }
-
-    const searchResults = fuseInstance.search(keyword);
-    let gridData = [];
 
     if (currentGrid) {
         currentGrid.destroy();
