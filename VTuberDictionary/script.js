@@ -37,11 +37,15 @@ function handleSearch() {
     const searchResults = fuseInstance.search(keyword);
     let gridData = [];
 
+    const gridElement = document.getElementById("gridTag");
+    gridElement.classList.add('is-loading');
+
     if (keyword.length === 0) {
         resultsDiv.textContent = 'キーワードを入力してください。';
         if (currentGrid) {
             currentGrid.updateConfig({ data: [] }).forceRender();
         }
+        gridElement.classList.remove('is-loading');
         return;
     }
 
@@ -85,11 +89,14 @@ function handleSearch() {
         } else {
             currentGrid.updateConfig({ data: gridData }).forceRender();
         }
+
+        gridElement.classList.remove('is-loading');
     } else {
         resultsDiv.textContent = `キーワード「${keyword}」に一致する結果は見つかりませんでした。`;
         if (currentGrid) {
             currentGrid.updateConfig({ data: [] }).forceRender();
         }
+        gridElement.classList.remove('is-loading');
     }
 }
 
