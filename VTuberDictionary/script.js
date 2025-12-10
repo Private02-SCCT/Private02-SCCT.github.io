@@ -23,6 +23,7 @@ async function initializeFuse() {
         resultsDiv.textContent = `エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`;
     }
 }
+
 function handleSearch() {
     if (!fuseInstance) {
         alert('データがまだロードされていません。しばらくお待ちください。');
@@ -58,18 +59,16 @@ function handleSearch() {
                 item.X,
                 item.subX
             ]
-
-            gridData.push(row);
+            gridData.push(row); 
         });
+        new gridjs.Grid({
+                columns: ["名前","ふりがな","種類","ファンアートタグ","ファンマーク","ファンネーム","配信タグ","所属事務所","所属グループ・ユニット・所属期生","現在のステータス","YouTubeチャンネル","Xアカウント","Xサブアカウント"],
+                data: gridData
+            }).render(document.getElementById("gridTag"));
     } else {
         resultsDiv.textContent = `キーワード「${keyword}」に一致する結果は見つかりませんでした。`;
         document.getElementById("gridTag").innerHTML = '';
     }
-
-    new gridjs.Grid({
-        columns: ["名前","ふりがな","種類","ファンアートタグ","ファンマーク","ファンネーム","配信タグ","所属事務所","所属グループ・ユニット・所属期生","現在のステータス","YouTubeチャンネル","Xアカウント","Xサブアカウント"],
-        data: gridData
-    }).render(document.getElementById("gridTag"));
 }
 
 
