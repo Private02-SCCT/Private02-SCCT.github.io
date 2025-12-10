@@ -1,5 +1,84 @@
 [
   {
+    "name": "ときのそら",
+    "furigana": "Tokino Sora",
+    "type": "VTuber",
+    "fa": "そらArt",
+    "fm": "🐻💿",
+    "fn": "そらとも",
+    "streamtag": "ときのそら生放送",
+    "production": "ホロライブ",
+    "group": "ホロライブ0期生",    
+    "status": "活動中",
+    "YouTube": "TokinoSora",
+    "X": "tokino_sora",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tokino-Sora_pr-img_01.png"
+  },
+  {
+    "name": "ロボ子さん",
+    "furigana": "Robocosan",
+    "type": "VTuber",
+    "fa": "ロボ子Art",
+    "fm": "🤖",
+    "fn": "ろぼさー",
+    "streamtag": "ロボ子生放送",
+    "production": "ホロライブ",
+    "group": "ホロライブ0期生",    
+    "status": "活動中",
+    "YouTube": "Robocosan",
+    "X": "robocosan",
+    "subX": "maybe_robochan",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Robocosan_pr-img_01.png"
+  },
+  {
+    "name": "アキ・ローゼンタール",
+    "furigana": "Aki Rosenthal",
+    "type": "VTuber",
+    "fa": "アロ絵",
+    "fm": "🍎",
+    "fn": "ロゼ隊",
+    "streamtag": "アキびゅーわーるど",
+    "production": "ホロライブ",
+    "group": "ホロライブ1期生",    
+    "status": "活動中",
+    "YouTube": "AkiRosenthal",
+    "X": "akirosenthal",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Aki-Rosenthal_pr-img_01.png"
+  },
+  {
+    "name": "赤井はあと",
+    "furigana": "Akai Haato",
+    "type": "VTuber",
+    "fa": "はあとart",
+    "fm": "❤️‍🔥",
+    "fn": "はあとん",
+    "streamtag": "赤井劇場",
+    "production": "ホロライブ",
+    "group": "ホロライブ1期生",    
+    "status": "活動中",
+    "YouTube": "AkaiHaato",
+    "X": "akaihaato",
+    "subX": "HAACHAMAsub",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Akai-Haato_pr-img_01.png"
+  },
+  
+
+
+
+
+
+
+
+
+
+  
+  {
     "name": "大空スバル",
     "furigana": "OozoraSubaru",
     "type": "VTuber",
@@ -9,7 +88,7 @@
     "streamtag": "生スバル",
     "production": "ホロライブ",
     "group": "2期生",
-    "status": "",
+    "status": "活動中",
     "YouTube": "OozoraSubaru",
     "X": "oozorasubaru",
     "subX": "",
@@ -26,7 +105,7 @@
     "streamtag": "ういの校内放送",
     "production": "無所属",
     "group": "",    
-    "status": "",
+    "status": "活動中",
     "YouTube": "ui_shig",
     "X": "ui_shig",
     "subX": "",
