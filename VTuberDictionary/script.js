@@ -1,3 +1,5 @@
+let fuseInstance = null;
+
 async function initializeFuse() {
     resultsDiv.textContent = 'データを読み込み中...';
     try {
