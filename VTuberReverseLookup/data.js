@@ -7,14 +7,16 @@ const data = [
         fm:"🚑",
         fn:"スバ友",
         production:"ホロライブ",
+        productionIcon:"",
+        prImg:"",
         streamtag:"生スバル",
         group:"2期生",
-        SNS:{
-            X:["oozorasubaru"],
-            YouTube:["OozoraSubaru"],
-        }
+        subX:"",
+        X:"oozorasubaru",
+        YouTube:"OozoraSubaru",
+        status:"",
     },
-        {
+    {
         name: "しぐれうい",
         furigana:"ShigureUi",
         type:"イラストレーター",
@@ -22,10 +24,13 @@ const data = [
         fm:"🌂",
         fn:"",
         production:"無所属",
+        productionIcon:"",
+        prImg:"",
         streamtag:"ういの校内放送",
         group:"",
-        X:["ui_shig"],
-        YouTube:["ui_shig"],
+        subX:"",
+        X:"ui_shig",
+        YouTube:"ui_shig",
+        status:"",
     },
 ]
-
