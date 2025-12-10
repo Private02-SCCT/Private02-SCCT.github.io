@@ -59,3 +59,5 @@ const resultsDiv = document.getElementById("resultDiv")
 const searchInput = document.getElementById("search")
 const btn = document.getElementById("btn")
 btn.addEventListener('click', handleSearch);
+
+HTMLの方にasyncと書いたら動くとかありえますあ？
