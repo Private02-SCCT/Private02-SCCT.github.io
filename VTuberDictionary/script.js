@@ -49,12 +49,6 @@ function handleSearch() {
         return;
     }
 
-    // if (currentGrid) {
-    //     currentGrid.destroy();
-    //     currentGrid = null;
-    // }
-    // document.getElementById("gridTag").innerHTML = '';
-
     if (searchResults.length > 0) {
         searchResults.forEach(result => {
             const item = result.item;
@@ -75,10 +69,6 @@ function handleSearch() {
             ]
             gridData.push(row); 
         });
-        // currentGrid = new gridjs.Grid({
-        //         columns: ["名前","ふりがな","種類","ファンアートタグ","ファンマーク","ファンネーム","配信タグ","所属事務所","所属グループ・ユニット・所属期生","現在のステータス","YouTubeチャンネル","Xアカウント","Xサブアカウント"],
-        //         data: gridData
-        //     }).render(document.getElementById("gridTag"));
 
         if (currentGrid === null) {
             currentGrid = new gridjs.Grid({
@@ -99,51 +89,6 @@ function handleSearch() {
         gridElement.classList.remove('is-loading');
     }
 }
-
-
-
-
-
-/*
-名前
-ふりがな
-種類
-ファンアートタグ
-ファンマーク
-ファンネーム
-配信タグ
-所属事務所
-所属グループ・ユニット・所属期生
-現在のステータス
-YouTubeチャンネル
-Xアカウント
-Xサブアカウント
-
-事務所アイコン
-立ち絵
-*/
-
-// [
-//   // 1番目の検索結果（スコアが最も低い＝最も一致度が高い）
-//   {
-//     "item": { /* 元のデータ配列から抽出された、一致したオブジェクト全体 */
-//       "name": "大空スバル",
-//       "furigana": "OozoraSubaru",
-//       "production": "ホロライブ",
-//       // ... その他のプロパティ ...
-//     },
-//     "refIndex": 0, // ★ 元の data 配列でのインデックス（ID）
-//     "score": 0.125, // ★ 検索の一致度スコア (0.000が完全一致)
-//     "matches": [ /* どのプロパティで一致したかの詳細情報（optionsで有効化した場合） */
-//       {
-//         "key": "production",
-//         "value": "ホロライブ",
-//         "indices": [
-//           [0, 1] // キーワードとデータが一致した文字列の位置
-//         ]
-//       }
-//     ]
-//   },
 
 const resultsDiv = document.getElementById("status")
 const searchInput = document.getElementById("search")
