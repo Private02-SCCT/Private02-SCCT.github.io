@@ -40,6 +40,7 @@ function handleSearch() {
 
     const searchResults = fuseInstance.search(keyword);
     let gridData = [];
+    document.getElementById("gridTag").innerHTML = '';
 
     if (searchResults.length > 0) {
         searchResults.forEach(result => {
@@ -67,7 +68,6 @@ function handleSearch() {
             }).render(document.getElementById("gridTag"));
     } else {
         resultsDiv.textContent = `キーワード「${keyword}」に一致する結果は見つかりませんでした。`;
-        document.getElementById("gridTag").innerHTML = '';
     }
 }
 
