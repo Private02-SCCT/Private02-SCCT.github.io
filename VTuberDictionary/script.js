@@ -3,7 +3,7 @@ let fuseInstance = null;
 async function initializeFuse() {
     resultsDiv.textContent = 'データを読み込み中...';
     try {
-        const response = await fetch('./VTuberDictionary/data.json');
+        const response = await fetch('./data.json');
         if (!response.ok) {
             throw new Error(`HTTPエラー: ${response.status} - data.jsonが見つかりません。`);
         }
