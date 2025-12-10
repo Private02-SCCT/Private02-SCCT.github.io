@@ -1,4 +1,5 @@
 let fuseInstance = null;
+let currentGrid = null;
 
 async function initializeFuse() {
     resultsDiv.textContent = 'データを読み込み中...';
@@ -31,7 +32,6 @@ function handleSearch() {
     }
 
     const keyword = searchInput.value.trim();
-    resultsDiv.innerHTML = '';
 
     if (keyword.length === 0) {
         resultsDiv.textContent = 'キーワードを入力してください。';
@@ -40,6 +40,11 @@ function handleSearch() {
 
     const searchResults = fuseInstance.search(keyword);
     let gridData = [];
+
+    if (currentGrid) {
+        currentGrid.destroy();
+        currentGrid = null;
+    }
     document.getElementById("gridTag").innerHTML = '';
 
     if (searchResults.length > 0) {
@@ -62,7 +67,7 @@ function handleSearch() {
             ]
             gridData.push(row); 
         });
-        new gridjs.Grid({
+        currentGrid = new gridjs.Grid({
                 columns: ["名前","ふりがな","種類","ファンアートタグ","ファンマーク","ファンネーム","配信タグ","所属事務所","所属グループ・ユニット・所属期生","現在のステータス","YouTubeチャンネル","Xアカウント","Xサブアカウント"],
                 data: gridData
             }).render(document.getElementById("gridTag"));
