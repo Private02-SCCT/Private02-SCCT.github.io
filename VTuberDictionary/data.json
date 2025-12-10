@@ -67,17 +67,74 @@
     "productionIcon": "",
     "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Akai-Haato_pr-img_01.png"
   },
-  
-
-
-
-
-
-
-
-
-
-  
+  {
+    "name": "白上フブキ",
+    "furigana": "Shirakami Fubuk",
+    "type": "VTuber",
+    "fa": "絵フブキ",
+    "fm": "🌽",
+    "fn": "すこん部/Friends",
+    "streamtag": "フブキch",
+    "production": "ホロライブ",
+    "group": "ホロライブ1期生/ホロライブゲーマーズ",    
+    "status": "活動中",
+    "YouTube": "ShirakamiFubuki",
+    "X": "shirakamifubuki",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shirakami-Fubuki_pr-img_01.png"
+  },
+  {
+    "name": "夏色まつり",
+    "furigana": "Natsuiro Matsuri",
+    "type": "VTuber",
+    "fa": "祭絵",
+    "fm": "🏮",
+    "fn": "まつりす",
+    "streamtag": "夏まつch",
+    "production": "ホロライブ",
+    "group": "ホロライブ1期生",    
+    "status": "活動中",
+    "YouTube": "NatsuiroMatsuri",
+    "X": "natsuiromatsuri",
+    "subX": "7216_2nd",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Natsuiro-Matsuri_pr-img_01.png"
+  },
+  {
+    "name": "百鬼あやめ",
+    "furigana": "Nakiri Ayame",
+    "type": "VTuber",
+    "fa": "百鬼絵巻",
+    "fm": "😈",
+    "fn": "百鬼組",
+    "streamtag": "百鬼あやめch",
+    "production": "ホロライブ",
+    "group": "ホロライブ2期生",    
+    "status": "活動中",
+    "YouTube": "NakiriAyame",
+    "X": "nakiriayame",
+    "subX": "YODAYOsub",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Nakiri-Ayame_pr-img_01.png"
+  },
+  {
+    "name": "癒月ちょこ",
+    "furigana": "Yuzuki Choco",
+    "type": "VTuber",
+    "fa": "しょこらーと",
+    "fm": "💋",
+    "fn": "ちょこめいと",
+    "streamtag": "癒月診療所",
+    "production": "ホロライブ",
+    "group": "ホロライブ2期生",    
+    "status": "活動中",
+    "YouTube": "YuzukiChoco",
+    "X": "yuzukichococh",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Yuzuki-Choco_pr-img_01.png"
+  },  
   {
     "name": "大空スバル",
     "furigana": "OozoraSubaru",
@@ -87,14 +144,85 @@
     "fn": "スバ友",
     "streamtag": "生スバル",
     "production": "ホロライブ",
-    "group": "2期生",
+    "group": "ホロライブ2期生",
     "status": "活動中",
     "YouTube": "OozoraSubaru",
     "X": "oozorasubaru",
     "subX": "",
     "productionIcon": "",
-    "prImg": ""
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Oozora-Subaru_pr-img_01.png"
   },
+  {
+    "name": "AZKi",
+    "furigana": "AZKi",
+    "type": "VTuber",
+    "fa": "AZKiART",
+    "fm": "⚒️",
+    "fn": "開拓者",
+    "streamtag": "あずきんち",
+    "production": "ホロライブ",
+    "group": "ホロライブ0期生/SorAZ/Shotgun Rose",    
+    "status": "活動中",
+    "YouTube": "AZKi",
+    "X": "AZKi_VDiVA",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2024/12/AZKi_pr-img_01.png"
+  },
+  {
+    "name": "大神ミオ",
+    "furigana": "Ookami Mio",
+    "type": "VTuber",
+    "fa": "みおーん絵",
+    "fm": "🌲",
+    "fn": "ミオファ",
+    "streamtag": "ミオかわいい",
+    "production": "ホロライブ",
+    "group": "ホロライブゲーマーズ",    
+    "status": "活動中",
+    "YouTube": "OokamiMio",
+    "X": "ookamimio",
+    "subX": "ookamimio_sab",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Ookami-Mio_pr-img_01.png"
+  },
+  {
+    "name": "さくらみこ",
+    "furigana": "Sakura Miko",
+    "type": "VTuber",
+    "fa": "miko_Art",
+    "fm": "🌸",
+    "fn": "35Ｐ",
+    "streamtag": "みこなま",
+    "production": "ホロライブ",
+    "group": "ホロライブ0期生",    
+    "status": "活動中",
+    "YouTube": "SakuraMiko",
+    "X": "sakuramiko35",
+    "subX": "mikochisub",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Sakura-Miko_pr-img_01.png"
+  },
+  {
+    "name": "猫又おかゆ",
+    "furigana": "Nekomata Okayu",
+    "type": "VTuber",
+    "fa": "絵かゆ",
+    "fm": "🍙",
+    "fn": "おにぎりゃー",
+    "streamtag": "生おかゆ",
+    "production": "ホロライブ",
+    "group": "ホロライブゲーマーズ",    
+    "status": "活動中",
+    "YouTube": "NekomataOkayu",
+    "X": "nekomataokayu",
+    "subX": "MO_OKAYU_GU",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Nekomata-Okayu_pr-img_01.png"
+  },
+
+
+
   {
     "name": "しぐれうい",
     "furigana": "ShigureUi",
