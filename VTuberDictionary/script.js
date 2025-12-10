@@ -1,28 +1,59 @@
-function findAllMatchIdsEfficiently(arr, keyword) {
-    const lowerCaseKeyword = keyword.toLowerCase();
-    const hitIds = [];
-    
-    arr.forEach((item, index) => {
-        const itemString = JSON.stringify(item).toLowerCase();
-        if (itemString.includes(lowerCaseKeyword)) {
-            hitIds.push(index);
+async function initializeFuse() {
+    resultsDiv.textContent = 'データを読み込み中...';
+    try {
+        const response = await fetch('./VTuberDictionary/data.json');
+        if (!response.ok) {
+            throw new Error(`HTTPエラー: ${response.status} - data.jsonが見つかりません。`);
         }
-    });
-    return hitIds;
+        const data = await response.json();
+        
+        const options = {
+            keys: ["name", "furigana", "production", "streamtag", "SNS.X", "SNS.YouTube"],
+            includeScore: true,
+            refIndex: true
+        };
+        
+        fuseInstance = new Fuse(data, options);
+        resultsDiv.textContent = `検索準備完了。${data.length}件のデータがロードされました。`;
+
+    } catch (error) {
+        console.error('Fuse.jsの初期化に失敗:', error);
+        resultsDiv.textContent = `エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`;
+    }
+}
+function handleSearch() {
+    if (!fuseInstance) {
+        alert('データがまだロードされていません。しばらくお待ちください。');
+        return;
+    }
+
+    const keyword = searchInput.value.trim();
+    resultsDiv.innerHTML = '';
+
+    if (keyword.length === 0) {
+        resultsDiv.textContent = 'キーワードを入力してください。';
+        return;
+    }
+
+    const searchResults = fuseInstance.search(keyword);
+
+    if (searchResults.length > 0) {
+        const ul = document.createElement('ul');
+        searchResults.forEach(result => {
+            const li = document.createElement('li');
+            const name = result.item.name;
+            const id = result.refIndex;
+
+            li.textContent = `[ID: ${id}] ${name} (スコア: ${result.score.toFixed(3)})`;
+            ul.appendChild(li);
+        });
+        resultsDiv.appendChild(ul);
+    } else {
+        resultsDiv.textContent = `キーワード「${keyword}」に一致する結果は見つかりませんでした。`;
+    }
 }
 
-
-function main(){
-  alert("debug_result")
-  // result = fuse.search(keyword);
-  // // result = findAllMatchIdsEfficiently(data, searchElement.value)
-  // alert(result)
-}
-
-
-const options = { keys: ["name", "furigana", "type","fa","fm","fn","production","streamtag","group"], includeScore: true };
-const fuse = new Fuse(data, options);
-const searchElement = document.getElementById("search")
-const btnElement = document.getElementById("btn")
-
-btnElement.addEventListener("click", main)
+const resultsDiv = document.getElementById("resultDiv")
+const searchInput = document.getElementById("search")
+const btn = document.getElementById("btn")
+btn.addEventListener('click', handleSearch);
