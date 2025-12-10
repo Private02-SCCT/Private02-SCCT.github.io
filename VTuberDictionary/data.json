@@ -6,15 +6,15 @@
     "fa": "プロテインザスバル",
     "fm": "🚑",
     "fn": "スバ友",
-    "production": "ホロライブ",
-    "productionIcon": "",
-    "prImg": "",
     "streamtag": "生スバル",
+    "production": "ホロライブ",
     "group": "2期生",
-    "subX": "",
-    "X": "oozorasubaru",
+    "status": "",
     "YouTube": "OozoraSubaru",
-    "status": ""
+    "X": "oozorasubaru",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": ""
   },
   {
     "name": "しぐれうい",
@@ -23,14 +23,14 @@
     "fa": "ういしぐれぇ",
     "fm": "🌂",
     "fn": "",
-    "production": "無所属",
-    "productionIcon": "",
-    "prImg": "",
     "streamtag": "ういの校内放送",
-    "group": "",
-    "subX": "",
-    "X": "ui_shig",
+    "production": "無所属",
+    "group": "",    
+    "status": "",
     "YouTube": "ui_shig",
-    "status": ""
+    "X": "ui_shig",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": ""
   }
 ]

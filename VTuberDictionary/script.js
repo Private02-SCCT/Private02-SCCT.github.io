@@ -38,18 +38,62 @@ function handleSearch() {
     }
 
     const searchResults = fuseInstance.search(keyword);
+    let gridData = [];
 
     if (searchResults.length > 0) {
         searchResults.forEach(result => {
-            const name = result.item.name;
-            const id = result.refIndex;
-            `[ID: ${id}] ${name} (スコア: ${result.score.toFixed(3)})`;
+            const item = result.item;
+            const row = [
+                item.name,
+                item.furigana,
+                item.type,
+                item.fa,
+                item.fm,
+                item.fn,
+                item.streamtag,
+                item.production,
+                item.group,
+                item.status,
+                item.YouTube,
+                item.X,
+                item.subX
+            ]
+
+            gridData.push(row);
         });
     } else {
         resultsDiv.textContent = `キーワード「${keyword}」に一致する結果は見つかりませんでした。`;
+        document.getElementById("gridTag").innerHTML = '';
     }
+
+    new gridjs.Grid({
+        columns: ["名前","ふりがな","種類","ファンアートタグ","ファンマーク","ファンネーム","配信タグ","所属事務所","所属グループ・ユニット・所属期生","現在のステータス","YouTubeチャンネル","Xアカウント","Xサブアカウント"],
+        data: gridData
+    }).render(document.getElementById("gridTag"));
 }
 
+
+
+
+
+/*
+名前
+ふりがな
+種類
+ファンアートタグ
+ファンマーク
+ファンネーム
+配信タグ
+所属事務所
+所属グループ・ユニット・所属期生
+現在のステータス
+YouTubeチャンネル
+Xアカウント
+Xサブアカウント
+
+事務所アイコン
+立ち絵
+*/
 
 // [
 //   // 1番目の検索結果（スコアが最も低い＝最も一致度が高い）
@@ -79,10 +123,3 @@ const btn = document.getElementById("btn")
 btn.addEventListener('click', handleSearch);
 
 initializeFuse();
-
-new gridjs.Grid({
-        columns: ["文字列","数値"],
-        data: [["高級車",5000000],
-                ["住宅",30000000],
-                ["自転車",30000]]
-}).render(document.getElementById("gridTag"));
