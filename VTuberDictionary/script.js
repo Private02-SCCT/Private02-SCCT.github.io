@@ -39,14 +39,17 @@ function handleSearch() {
 
     if (keyword.length === 0) {
         resultsDiv.textContent = 'キーワードを入力してください。';
+        if (currentGrid) {
+            currentGrid.updateConfig({ data: [] }).forceRender();
+        }
         return;
     }
 
-    if (currentGrid) {
-        currentGrid.destroy();
-        currentGrid = null;
-    }
-    document.getElementById("gridTag").innerHTML = '';
+    // if (currentGrid) {
+    //     currentGrid.destroy();
+    //     currentGrid = null;
+    // }
+    // document.getElementById("gridTag").innerHTML = '';
 
     if (searchResults.length > 0) {
         searchResults.forEach(result => {
@@ -68,12 +71,25 @@ function handleSearch() {
             ]
             gridData.push(row); 
         });
-        currentGrid = new gridjs.Grid({
+        // currentGrid = new gridjs.Grid({
+        //         columns: ["名前","ふりがな","種類","ファンアートタグ","ファンマーク","ファンネーム","配信タグ","所属事務所","所属グループ・ユニット・所属期生","現在のステータス","YouTubeチャンネル","Xアカウント","Xサブアカウント"],
+        //         data: gridData
+        //     }).render(document.getElementById("gridTag"));
+
+        if (currentGrid === null) {
+            currentGrid = new gridjs.Grid({
                 columns: ["名前","ふりがな","種類","ファンアートタグ","ファンマーク","ファンネーム","配信タグ","所属事務所","所属グループ・ユニット・所属期生","現在のステータス","YouTubeチャンネル","Xアカウント","Xサブアカウント"],
-                data: gridData
+                data: gridData,
             }).render(document.getElementById("gridTag"));
+            
+        } else {
+            currentGrid.updateConfig({ data: gridData }).forceRender();
+        }
     } else {
         resultsDiv.textContent = `キーワード「${keyword}」に一致する結果は見つかりませんでした。`;
+        if (currentGrid) {
+            currentGrid.updateConfig({ data: [] }).forceRender();
+        }
     }
 }
 
