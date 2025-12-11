@@ -14,7 +14,8 @@
     "X": "tokino_sora",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tokino-Sora_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tokino-Sora_pr-img_01.png",
+    "color":"blue"
   },
   {
     "name": "ロボ子さん",
@@ -31,7 +32,8 @@
     "X": "robocosan",
     "subX": "maybe_robochan",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Robocosan_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Robocosan_pr-img_01.png",
+    "color":"red"
   },
   {
     "name": "アキ・ローゼンタール",
@@ -48,7 +50,8 @@
     "X": "akirosenthal",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Aki-Rosenthal_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Aki-Rosenthal_pr-img_01.png",
+    "color":"pink"
   },
   {
     "name": "赤井はあと",
@@ -65,7 +68,8 @@
     "X": "akaihaato",
     "subX": "HAACHAMAsub",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Akai-Haato_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Akai-Haato_pr-img_01.png",
+    "color":"red"
   },
   {
     "name": "白上フブキ",
@@ -82,7 +86,8 @@
     "X": "shirakamifubuki",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shirakami-Fubuki_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shirakami-Fubuki_pr-img_01.png",
+    "color":"cyan"
   },
   {
     "name": "夏色まつり",
@@ -99,7 +104,8 @@
     "X": "natsuiromatsuri",
     "subX": "7216_2nd",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Natsuiro-Matsuri_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Natsuiro-Matsuri_pr-img_01.png",
+    "color":"orange"
   },
   {
     "name": "百鬼あやめ",
@@ -116,7 +122,8 @@
     "X": "nakiriayame",
     "subX": "YODAYOsub",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Nakiri-Ayame_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Nakiri-Ayame_pr-img_01.png",
+    "color":"red"
   },
   {
     "name": "癒月ちょこ",
@@ -133,7 +140,8 @@
     "X": "yuzukichococh",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Yuzuki-Choco_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Yuzuki-Choco_pr-img_01.png",
+    "color":"pink"
   },  
   {
     "name": "大空スバル",
@@ -150,7 +158,8 @@
     "X": "oozorasubaru",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Oozora-Subaru_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Oozora-Subaru_pr-img_01.png",
+    "color":"yellow"
   },
   {
     "name": "AZKi",
@@ -167,7 +176,8 @@
     "X": "AZKi_VDiVA",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2024/12/AZKi_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2024/12/AZKi_pr-img_01.png",
+    "color":"pink"
   },
   {
     "name": "大神ミオ",
@@ -184,7 +194,8 @@
     "X": "ookamimio",
     "subX": "ookamimio_sab",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Ookami-Mio_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Ookami-Mio_pr-img_01.png",
+    "color":"red"
   },
   {
     "name": "さくらみこ",
@@ -201,7 +212,8 @@
     "X": "sakuramiko35",
     "subX": "mikochisub",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Sakura-Miko_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Sakura-Miko_pr-img_01.png",
+    "color":"pink"
   },
   {
     "name": "猫又おかゆ",
@@ -218,7 +230,8 @@
     "X": "nekomataokayu",
     "subX": "MO_OKAYU_GU",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Nekomata-Okayu_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Nekomata-Okayu_pr-img_01.png",
+    "color":"purple"
   },
   {
     "name": "戌神ころね",
@@ -235,7 +248,8 @@
     "X": "inugamikorone",
     "subX": "k5r6n3",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Inugami-Korone_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Inugami-Korone_pr-img_01.png",
+    "color":"yellow"
   },
   {
     "name": "星街すいせい",
@@ -252,7 +266,8 @@
     "X": "suisei_hosimati",
     "subX": "suisei_submati",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Hoshimachi-Suisei_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Hoshimachi-Suisei_pr-img_01.png",
+    "color":"cyan"
   },
   {
     "name": "兎田ぺこら",
@@ -269,7 +284,8 @@
     "X": "usadapekora",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Usada-Pekora_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Usada-Pekora_pr-img_01.png",
+    "color":"cyan"
   },
   {
     "name": "不知火フレア",
@@ -286,7 +302,8 @@
     "X": "shiranuiflare",
     "subX": "fuu_tan_sub",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shiranui-Flare_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shiranui-Flare_pr-img_01.png",
+    "color":"orange"
   },
   {
     "name": "白銀ノエル",
@@ -303,7 +320,8 @@
     "X": "shiroganenoel",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shirogane-Noel_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shirogane-Noel_pr-img_01.png",
+    "color":"white"
   },
   {
     "name": "宝鐘マリン",
@@ -320,7 +338,8 @@
     "X": "houshoumarine",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Houshou-Marine_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Houshou-Marine_pr-img_01.png",
+    "color":"red"
   },
   {
     "name": "天音かなた",
@@ -337,7 +356,8 @@
     "X": "amanekanatach",
     "subX": "subtasochan",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2024/07/Amane-Kanata_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2024/07/Amane-Kanata_pr-img_01.png",
+    "color":"cyan"
   },
   {
     "name": "角巻わため",
@@ -354,7 +374,8 @@
     "X": "tsunomakiwatame",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tsunomaki-Watame_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tsunomaki-Watame_pr-img_01.png",
+    "color":"yellow"
   },
   {
     "name": "常闇トワ",
@@ -371,7 +392,8 @@
     "X": "tokoyamitowa",
     "subX": "",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tokoyami-Towa_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tokoyami-Towa_pr-img_01.png",
+    "color":"purple"
   },
   {
     "name": "姫森ルーナ",
@@ -388,7 +410,8 @@
     "X": "himemoriluna",
     "subX": "lunatan_nanora",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Himemori-Luna_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Himemori-Luna_pr-img_01.png",
+    "color":"pink"
   },
   {
     "name": "雪花ラミィ",
@@ -405,7 +428,8 @@
     "X": "yukihanalamy",
     "subX": "YukihanaWamy",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Yukihana-Lamy_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Yukihana-Lamy_pr-img_01.png",
+    "color":"cyan"
   },
   {
     "name": "桃鈴ねね",
@@ -422,10 +446,18 @@
     "X": "momosuzunene",
     "subX": "_nenechidayo",
     "productionIcon": "",
-    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Momosuzu-Nene_pr-img_01.png"
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Momosuzu-Nene_pr-img_01.png",
+    "color":"orange"
   },
 
 
+
+
+
+
+
+
+  
   {
     "name": "しぐれうい",
     "furigana": "ShigureUi",
