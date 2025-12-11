@@ -7,7 +7,7 @@
     "fn": "",
     "streamtag": "",
     "production": "",
-    "group": "",    
+    "group": "",
     "status": "",
     "YouTube": "",
     "X": "",
