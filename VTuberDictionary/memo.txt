@@ -13,5 +13,16 @@
     "X": "",
     "subX": "",
     "productionIcon": "",
-    "prImg": ""
+    "prImg": "",
+    "color":""
   },
+
+
+.main.red
+.main.orange
+.main.yellow
+.main.green
+.main.cyan
+.main.blue
+.main.purple
+.main.pink

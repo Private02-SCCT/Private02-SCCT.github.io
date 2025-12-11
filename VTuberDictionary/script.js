@@ -11,7 +11,21 @@ async function initializeFuse() {
         const data = await response.json();
         
         const options = {
-            keys: ["name", "furigana", "production", "streamtag", "SNS.X", "SNS.YouTube"],
+            keys: [
+                "name",
+                "furigana",
+                "type",
+                "fa",
+                "fm",
+                "fn",
+                "streamtag",
+                "production",
+                "group",
+                "status",
+                "YouTube",
+                "X",
+                "subX"
+            ],
             includeScore: true,
             refIndex: true
         };
