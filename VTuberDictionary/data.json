@@ -449,6 +449,114 @@
     "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Momosuzu-Nene_pr-img_01.png",
     "color":"orange"
   },
+  {
+    "name": "獅白ぼたん",
+    "furigana": "Shishiro Botan",
+    "type": "VTuber",
+    "fa": "ししらーと",
+    "fm": "♌",
+    "fn": "SSRB",
+    "streamtag": "ぐうたらいぶ",
+    "production": "ホロライブ",
+    "group": "ホロライブ5期生",    
+    "status": "活動中",
+    "YouTube": "ShishiroBotan",
+    "X": "shishirobotan",
+    "subX": "446_bo",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2024/05/Shishiro-Botan_pr-img_01.png",
+    "color":"green"
+  },  
+  {
+    "name": "尾丸ポルカ",
+    "furigana": "Omaru Polka",
+    "type": "VTuber",
+    "fa": "絵まる",
+    "fm": "🎪",
+    "fn": "座員",
+    "streamtag": "ポルカ公演中",
+    "production": "ホロライブ",
+    "group": "ホロライブ5期生",    
+    "status": "活動中",
+    "YouTube": "OmaruPolka",
+    "X": "omarupolka",
+    "subX": "polkasub",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2024/12/Omaru-Polka_pr-img_01.png",
+    "color":"red"
+  },
+  {
+    "name": "ラプラス・ダークネス",
+    "furigana": "La+ Darknesss",
+    "type": "VTuber",
+    "fa": "Laplus_Artdesu",
+    "fm": "🛸💜",
+    "fn": "ぷらすめいと",
+    "streamtag": "laplus_great",
+    "production": "ホロライブ",
+    "group": "秘密結社holoX",    
+    "status": "活動中",
+    "YouTube": "LaplusDarknesss",
+    "X": "LaplusDarknesss",
+    "subX": "wagahaida_L",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/La-Darknesss_pr-img_01.png",
+    "color":"purple"
+  },
+  {
+    "name": "鷹嶺ルイ",
+    "furigana": "Takane Lui",
+    "type": "VTuber",
+    "fa": "Luillust",
+    "fm": "🥀",
+    "fn": "ルイ友",
+    "streamtag": "たかねの見物",
+    "production": "ホロライブ",
+    "group": "秘密結社holoX",    
+    "status": "活動中",
+    "YouTube": "TakaneLui",
+    "X": "takanelui",
+    "subX": "sub_luilui",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2024/08/Takane-Lui_pr-img_01.png",
+    "color":"red"
+  },
+  {
+    "name": "博衣こより",
+    "furigana": "Hakui Koyori",
+    "type": "VTuber",
+    "fa": "こよりすけっち",
+    "fm": "🧪",
+    "fn": "こよりの助手くん",
+    "streamtag": "こより実験中",
+    "production": "ホロライブ",
+    "group": "秘密結社holoX",    
+    "status": "活動中",
+    "YouTube": "HakuiKoyori",
+    "X": "hakuikoyori",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Hakui-Koyori_pr-img_01.png",
+    "color":"pink"
+  },
+  {
+    "name": "風真いろは",
+    "furigana": "Kazama Iroha",
+    "type": "VTuber",
+    "fa": "いろはにも絵を",
+    "fm": "🍃",
+    "fn": "かざま隊",
+    "streamtag": "かざま修行中",
+    "production": "ホロライブ",
+    "group": "秘密結社holoX",    
+    "status": "活動中",
+    "YouTube": "kazamairoha",
+    "X": "kazamairohach",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Kazama-Iroha_pr-img_01.png",
+    "color":"green"
+  },
 
 
 
@@ -457,7 +565,8 @@
 
 
 
-  
+
+
   {
     "name": "しぐれうい",
     "furigana": "ShigureUi",
