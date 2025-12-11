@@ -1349,6 +1349,61 @@
     "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2023/10/Nanashi-Mumei_pr-img_01.png",
     "color":"yellow"
   },
+  {
+    "name": "火威青",
+    "furigana": "Hiodoshi Ao",
+    "type": "VTuber",
+    "fa": "青ペン",
+    "fm": "🖋️",
+    "fn": "読者",
+    "streamtag": "青原稿中",
+    "production": "ホロライブ",
+    "group": "ReGLOSS",
+    "status": "卒業生",
+    "YouTube": "HiodoshiAo",
+    "X": "hiodoshiao",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Hiodoshi-Ao_pr-img_01_a.png",
+    "color":"blue"
+  },
+  {
+    "name": "春先のどか",
+    "furigana": "Harusaki Nodoka",
+    "type": "アナウンサー",
+    "fa": "のどかあーと",
+    "fm": "📝",
+    "fn": "",
+    "streamtag": "はるさきじかん",
+    "production": "ホロライブ",
+    "group": "holoAN",
+    "status": "退職",
+    "YouTube": "holoANroom",
+    "X": "harusakinodoka",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Harusaki-Nodoka_pr-img_01.png",
+    "color":"green"
+  },
+  {
+    "name": "友人A（えーちゃん）",
+    "furigana": "Friend-A",
+    "type": "スタッフ",
+    "fa": "絵ーちゃん",
+    "fm": "👓",
+    "fn": "",
+    "streamtag": "ホロのこしかけ",
+    "production": "ホロライブ",
+    "group": "事務所スタッフ",
+    "status": "退職",
+    "YouTube": "hololive",
+    "X": "achan_UGA",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Friend-A_pr-img_01.png",
+    "color":"purple"
+  },
+
 
 
 
