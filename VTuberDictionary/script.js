@@ -92,9 +92,22 @@ function handleSearch() {
                 columns: ["名前","ふりがな","種類","ファンアートタグ","ファンマーク","ファンネーム","配信タグ","所属事務所","所属グループ・ユニット・所属期生","現在のステータス","YouTubeチャンネル","Xアカウント","Xサブアカウント"],
                 data: gridData,
             }).render(document.getElementById("gridTag"));
+            sort: true,
+            pagination: {
+                enabled: true,
+                limit: 10,
+                summary: true 
+            },
             
         } else {
-            currentGrid.updateConfig({ data: gridData }).forceRender();
+            currentGrid.updateConfig({ 
+                data: gridData,
+                sort: true,
+                pagination: {
+                enabled: true,
+                limit: 10,
+                summary: true 
+            },}).forceRender();
         }
 
         gridElement.classList.remove('is-loading');
