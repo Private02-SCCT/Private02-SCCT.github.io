@@ -102,7 +102,6 @@ function handleSearch() {
         } else {
             currentGrid.updateConfig({ 
                 data: gridData,
-                data: gridData,
                 sort: true,
                 pagination: {
                     enabled: true,
