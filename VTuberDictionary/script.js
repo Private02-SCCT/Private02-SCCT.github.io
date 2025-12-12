@@ -10,25 +10,28 @@ async function initializeFuse() {
         }
         const data = await response.json();
         
-        const options = {
-            keys: [
-                "name",
-                "furigana",
-                "type",
-                "fa",
-                "fm",
-                "fn",
-                "streamtag",
-                "production",
-                "group",
-                "status",
-                "YouTube",
-                "X",
-                "subX"
-            ],
-            includeScore: true,
-            refIndex: true
-        };
+    const options = {
+        threshold: 0.3,
+        includeScore: true,
+        refIndex: true,
+        keys: [
+            { name: "name", weight: 2.5 },
+            { name: "furigana", weight: 2.0 },
+            { name: "type", weight: 1.0 },
+            { name: "fa", weight: 1.5 },
+            { name: "fm", weight: 1.5 },
+            { name: "fn", weight: 1.5 },
+            { name: "streamtag", weight: 1.5 },
+            { name: "production", weight: 1.0 },
+            { name: "group", weight: 2.0 },
+            { name: "status", weight: 0.5 },
+            { name: "YouTube", weight: 1.0 },
+            { name: "X", weight: 1.0 },
+            { name: "subX", weight: 0.5 },
+        ],
+        includeScore: true,
+        refIndex: true,
+    };
         
         fuseInstance = new Fuse(data, options);
         resultsDiv.textContent = `検索準備完了。${data.length}件のデータがロードされました。`;
