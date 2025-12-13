@@ -29,8 +29,6 @@ async function initializeFuse() {
             { name: "X", weight: 1.0 },
             { name: "subX", weight: 0.5 },
         ],
-        includeScore: true,
-        refIndex: true,
     };
         
         fuseInstance = new Fuse(data, options);
