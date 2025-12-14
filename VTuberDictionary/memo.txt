@@ -27,3 +27,5 @@
 .main.purple
 .main.pink
 .main.white
+.main.lgreen
+.main.lpurple
