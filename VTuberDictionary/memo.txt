@@ -8,6 +8,8 @@
     "streamtag": "",
     "production": "",
     "group": "",
+    "generation": "",
+    "unit": "",
     "status": "",
     "YouTube": "",
     "X": "",

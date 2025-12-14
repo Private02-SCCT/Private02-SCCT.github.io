@@ -24,6 +24,8 @@ async function initializeFuse() {
             { name: "streamtag", weight: 1.5 },
             { name: "production", weight: 1.0 },
             { name: "group", weight: 2.0 },
+            { name: "generation", weight: 2.0},
+            { name: "unit", weight: 2.0 },
             { name: "status", weight: 0.5 },
             { name: "YouTube", weight: 1.0 },
             { name: "X", weight: 1.0 },
@@ -77,6 +79,8 @@ function handleSearch() {
                 item.streamtag,
                 item.production,
                 item.group,
+                item.generation,
+                item.unit,
                 item.status,
                 item.YouTube,
                 item.X,
@@ -87,7 +91,22 @@ function handleSearch() {
 
         if (currentGrid === null) {
             currentGrid = new gridjs.Grid({
-                columns: ["名前","ふりがな","種類","ファンアートタグ","ファンマーク","ファンネーム","配信タグ","所属事務所","所属グループ・ユニット・所属期生","現在のステータス","YouTubeチャンネル","Xアカウント","Xサブアカウント"],
+                columns: [
+                    "名前",
+                    "ふりがな",
+                    "種類",
+                    "ファンアートタグ",
+                    "ファンマーク",
+                    "ファンネーム",
+                    "配信タグ",
+                    "所属事務所",
+                    "所属グループ",
+                    "所属期生",
+                    "所属ユニット",
+                    "現在のステータス",
+                    "YouTubeチャンネル",
+                    "Xアカウント",
+                    "Xサブアカウント"],
                 data: gridData,
                 sort: true,
                 pagination: {
