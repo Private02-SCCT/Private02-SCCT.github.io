@@ -1,0 +1,33 @@
+  {
+    "name": "",
+    "furigana": "",
+    "type": "",
+    "fa": "",
+    "fm": "",
+    "fn": "",
+    "streamtag": "",
+    "production": "",
+    "group": "",
+    "generation": "",
+    "unit": "",
+    "status": "",
+    "YouTube": "",
+    "X": "",
+    "subX": "",
+    "productionIcon": "",
+    "prImg": "",
+    "color":""
+  },
+
+
+.main.red
+.main.orange
+.main.yellow
+.main.green
+.main.cyan
+.main.blue
+.main.purple
+.main.pink
+.main.white
+.main.lgreen
+.main.lpurple
