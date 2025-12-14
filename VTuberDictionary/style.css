@@ -8,6 +8,13 @@ body {
   font-weight: 700;
 }
 
+/* ---gridTag--- */
+#gridTag{
+  overflow-x: auto;
+}
+
+/* ---main--- */
+
 .main {
   position: relative;
   margin-top: 1%;
