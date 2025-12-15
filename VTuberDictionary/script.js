@@ -157,8 +157,10 @@ function handleScroll() {
 const resultsDiv = document.getElementById("status")
 const searchInput = document.getElementById("search")
 const btn = document.getElementById("btn")
+const headerBtn = document.getElementById("headerBtn")
 
-window.addEventListener("scroll", handleScroll);
 btn.addEventListener('click', handleSearch);
+headerBtn.addEventListener('click', handleSearch);
+window.addEventListener("scroll", handleScroll);
 
 initializeFuse();
