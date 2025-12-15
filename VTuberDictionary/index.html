@@ -6,12 +6,13 @@
     <title>VTuber辞典</title>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
     <script src="script.js" async defer></script>
+    <link rel="stylesheet" href="style.css">
+
 
     <!-- Grid.js -->
     <link rel='stylesheet' href='https://unpkg.com/gridjs/dist/theme/mermaid.min.css'>
     <script src='https://unpkg.com/gridjs/dist/gridjs.umd.js'></script>
-    <link rel="stylesheet" href="style.css">
-
+    
     <!-- Note Sans JP -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,6 +20,24 @@
 
 </head>
 <body>
+
+    <header class="headerBox">
+      <div class="contentBox">
+        <h1>VTuber辞典</h1>
+
+        <div class="formBox">
+          <input
+            type="text"
+            id="search"
+            placeholder="検索..."
+            onkeydown="handleKeydown(event)"
+          />
+          <button id="btn" onclick="handleSearch()">検索</button>
+        </div>
+      </div>
+    </header>
+
+
     <h3>VTuber辞典</h3>
     
     <div class="form">
@@ -28,7 +47,7 @@
 
     <br>
 
-    <div class="resultDiv" id="resultDiv">
+    <div class="resultBox" id="resultDiv">
         <span id="status"></span>
         <div id="gridTag"></div>
     </div>
