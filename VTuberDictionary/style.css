@@ -8,9 +8,10 @@ body {
   font-weight: 700;
 }
 
-body {
+body:not(#card-results-container) {
   background-color: #f8f9fa;
   color: #343a40;
+  padding: 20px;
   padding-top: 70px;
   font-weight: 300;
 }
@@ -20,17 +21,11 @@ h3 {
   color: #495057;
   margin-bottom: 25px;
   border-bottom: 2px solid #e9ecef;
-  padding: 20px;
   padding-bottom: 5px;
 }
-div.form {
-  padding: 20px;
-}
-.resultDiv #status {
-  padding: 20px;
-}
-.resultDiv #gridTag {
-  padding: 20px;
+
+#card-results-container{
+  padding: 0;
 }
 
 /* ---header--- */
