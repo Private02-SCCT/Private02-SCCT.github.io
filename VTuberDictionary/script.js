@@ -42,13 +42,13 @@ async function initializeFuse() {
     }
 }
 
-function handleSearch() {
+function handleSearch(i) {
     if (!fuseInstance) {
         alert('データがまだロードされていません。しばらくお待ちください。');
         return;
     }
 
-    const keyword = searchInput.value.trim();
+    const keyword = i.value.trim();
 
     resultsDiv.innerHTML = '';
     const searchResults = fuseInstance.search(keyword);
@@ -207,11 +207,16 @@ function createVtuberCard(item) {
 
 const resultsDiv = document.getElementById("status")
 const searchInput = document.getElementById("search")
+const headerSearchInput = document.getElementById("headerSearch")
 const btn = document.getElementById("btn")
 const headerBtn = document.getElementById("headerBtn")
 
-btn.addEventListener('click', handleSearch);
-headerBtn.addEventListener('click', handleSearch);
+btn.addEventListener('click', function forBtn(){
+    handleSearch(searchInput)
+});
+headerBtn.addEventListener('click', function forHeaderBtn() {
+    handleSearch(headerSearchInput)
+});
 window.addEventListener("scroll", handleScroll);
 
 initializeFuse();
