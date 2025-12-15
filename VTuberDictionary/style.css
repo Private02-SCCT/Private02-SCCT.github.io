@@ -262,3 +262,21 @@ h3 {
   background-image: url("./img/base_bar.svg");
   filter: brightness(120%) saturate(0%) hue-rotate(300deg);
 }
+
+.main.lgreen .bgBox {
+  background-image: url("./img/base_bg.png");
+  filter: brightness(150%) saturate(150%) hue-rotate(150deg);
+}
+.main.lgreen .nameBox .bar_img {
+  background-image: url("./img/base_bar.svg");
+  filter: brightness(150%) saturate(150%) hue-rotate(160deg);
+}
+
+.main.lpurple .bgBox {
+  background-image: url("./img/base_bg.png");
+  filter: brightness(120%) saturate(150%) hue-rotate(270deg);
+}
+.main.lpurple .nameBox .bar_img {
+  background-image: url("./img/base_bar.svg");
+  filter: brightness(170%) saturate(150%) hue-rotate(270deg);
+}
