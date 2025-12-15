@@ -255,10 +255,10 @@ h3 {
 }
 
 .main.white .bgBox {
-  background-image: url("./base_bg.png");
+  background-image: url("./img/base_bg.png");
   filter: brightness(120%) saturate(0%) hue-rotate(300deg);
 }
 .main.white .nameBox .bar_img {
-  background-image: url("./base_bar.svg");
+  background-image: url("./img/base_bar.svg");
   filter: brightness(120%) saturate(0%) hue-rotate(300deg);
 }
