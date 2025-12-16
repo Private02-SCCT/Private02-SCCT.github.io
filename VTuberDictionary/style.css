@@ -8,7 +8,7 @@ body {
   font-weight: 700;
 }
 
-body:not(#card-results-container) {
+body {
   background-color: #f8f9fa;
   color: #343a40;
   padding: 20px;
@@ -25,7 +25,7 @@ h3 {
 }
 
 #card-results-container{
-  padding: 0;
+  margin: -20px;
 }
 
 /* ---header--- */
