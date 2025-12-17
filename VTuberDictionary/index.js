@@ -2,7 +2,7 @@ let fuseInstance = null;
 let currentGrid = null;
 
 async function initializeFuse() {
-    resultsDiv.textContent = 'データを読み込み中...';
+    writeResults('データを読み込み中...', resultsDiv)
     try {
         const response = await fetch('./data.json');
         if (!response.ok) {
@@ -34,11 +34,11 @@ async function initializeFuse() {
     };
         
         fuseInstance = new Fuse(data, options);
-        resultsDiv.textContent = `検索準備完了。${data.length}件のデータがロードされました。`;
+        writeResults(`検索準備完了。${data.length}件のデータがロードされました。`, resultsDiv);
 
     } catch (error) {
         console.error('Fuse.jsの初期化に失敗:', error);
-        resultsDiv.textContent = `エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`;
+        writeResults(`エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`, resultsDiv);
     }
 }
 
@@ -58,7 +58,7 @@ function handleSearch(i) {
     gridElement.classList.add('is-loading');
 
     if (keyword.length === 0) {
-        resultsDiv.textContent = 'キーワードを入力してください。';
+        writeResults('キーワードを入力してください。', resultsDiv);
         if (currentGrid) {
             currentGrid.updateConfig({ data: [] }).forceRender();
         }
@@ -140,12 +140,16 @@ function handleSearch(i) {
         });
         cardContainer.innerHTML = allCardsHTML;
     } else {
-        resultsDiv.textContent = `キーワード「${keyword}」に一致する結果は見つかりませんでした。`;
+        writeResults(`キーワード「${keyword}」に一致する結果は見つかりませんでした。`, resultsDiv);
         if (currentGrid) {
             currentGrid.updateConfig({ data: [] }).forceRender();
         }
         gridElement.classList.remove('is-loading');
     }
+}
+
+function writeResults(content,DOM) {
+    DOM.textContent = content
 }
 
 const resultsDiv = document.getElementById("status")
