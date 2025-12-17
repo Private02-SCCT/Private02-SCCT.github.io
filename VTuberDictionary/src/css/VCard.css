@@ -89,98 +89,98 @@
 
 /* color class */
 .VCard_main.red .bgBox {
-  background-image: url("../src/img/base_bg.png");
+  background-image: url("../img/base_bg.png");
   filter: brightness(120%) saturate(150%) hue-rotate(0deg);
 }
 .VCard_main.red .nameBox .bar_img {
-  background-image: url("../src/img/base_bar.svg");
+  background-image: url("../img/base_bar.svg");
   filter: brightness(120%) saturate(150%) hue-rotate(0deg);
 }
 
 .VCard_main.orange .bgBox {
-  background-image: url("../src/img/y_bg.png");
+  background-image: url("../img/y_bg.png");
   filter: brightness(100%) saturate(150%) hue-rotate(320deg);
 }
 .VCard_main.orange .nameBox .bar_img {
-  background-image: url("../src/img/y_bar.svg");
+  background-image: url("../img/y_bar.svg");
   filter: brightness(100%) saturate(150%) hue-rotate(320deg);
 }
 
 .VCard_main.yellow .bgBox {
-  background-image: url("../src/img/y_bg.png");
+  background-image: url("../img/y_bg.png");
 }
 .VCard_main.yellow .nameBox .bar_img {
-  background-image: url("../src/img/y_bar.svg");
+  background-image: url("../img/y_bar.svg");
 }
 
 .VCard_main.green .bgBox {
-  background-image: url("../src/img/base_bg.png");
+  background-image: url("../img/base_bg.png");
   filter: brightness(120%) saturate(150%) hue-rotate(130deg);
 }
 .VCard_main.green .nameBox .bar_img {
-  background-image: url("../src/img/base_bar.svg");
+  background-image: url("../img/base_bar.svg");
   filter: brightness(150%) saturate(150%) hue-rotate(130deg);
 }
 
 .VCard_main.cyan .bgBox {
-  background-image: url("../src/img/base_bg.png");
+  background-image: url("../img/base_bg.png");
   filter: brightness(120%) saturate(150%) hue-rotate(200deg);
 }
 .VCard_main.cyan .nameBox .bar_img {
-  background-image: url("../src/img/base_bar.svg");
+  background-image: url("../img/base_bar.svg");
   filter: brightness(120%) saturate(150%) hue-rotate(200deg);
 }
 
 .VCard_main.blue .bgBox {
-  background-image: url("../src/img/base_bg.png");
+  background-image: url("../img/base_bg.png");
   filter: brightness(120%) saturate(150%) hue-rotate(220deg);
 }
 .VCard_main.blue .nameBox .bar_img {
-  background-image: url("../src/img/base_bar.svg");
+  background-image: url("../img/base_bar.svg");
   filter: brightness(120%) saturate(150%) hue-rotate(220deg);
 }
 
 .VCard_main.purple .bgBox {
-  background-image: url("../src/img/base_bg.png");
+  background-image: url("../img/base_bg.png");
   filter: brightness(100%) saturate(150%) hue-rotate(270deg);
 }
 .VCard_main.purple .nameBox .bar_img {
-  background-image: url("../src/img/base_bar.svg");
+  background-image: url("../img/base_bar.svg");
   filter: brightness(100%) saturate(150%) hue-rotate(270deg);
 }
 
 .VCard_main.pink .bgBox {
-  background-image: url("../src/img/base_bg.png");
+  background-image: url("../img/base_bg.png");
   filter: brightness(120%) saturate(150%) hue-rotate(300deg);
 }
 .VCard_main.pink .nameBox .bar_img {
-  background-image: url("../src/img/base_bar.svg");
+  background-image: url("../img/base_bar.svg");
   filter: brightness(120%) saturate(150%) hue-rotate(300deg);
 }
 
 .VCard_main.white .bgBox {
-  background-image: url("../src/img/base_bg.png");
+  background-image: url("../img/base_bg.png");
   filter: brightness(120%) saturate(0%) hue-rotate(300deg);
 }
 .VCard_main.white .nameBox .bar_img {
-  background-image: url("../src/img/base_bar.svg");
+  background-image: url("../img/base_bar.svg");
   filter: brightness(120%) saturate(0%) hue-rotate(300deg);
 }
 
 .VCard_main.lgreen .bgBox {
-  background-image: url("../src/img/base_bg.png");
+  background-image: url("../img/base_bg.png");
   filter: brightness(150%) saturate(150%) hue-rotate(150deg);
 }
 .VCard_main.lgreen .nameBox .bar_img {
-  background-image: url("../src/img/base_bar.svg");
+  background-image: url("../img/base_bar.svg");
   filter: brightness(150%) saturate(150%) hue-rotate(160deg);
 }
 
 .VCard_main.lpurple .bgBox {
-  background-image: url("../src/img/base_bg.png");
+  background-image: url("../img/base_bg.png");
   filter: brightness(120%) saturate(150%) hue-rotate(270deg);
 }
 .VCard_main.lpurple .nameBox .bar_img {
-  background-image: url("../src/img/base_bar.svg");
+  background-image: url("../img/base_bar.svg");
   filter: brightness(170%) saturate(150%) hue-rotate(270deg);
 }
