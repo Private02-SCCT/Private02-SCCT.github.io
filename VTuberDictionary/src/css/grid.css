@@ -1,0 +1,19 @@
+/* ---grid--- */
+#gridTag{
+  overflow-x: auto;
+}
+
+.gridjs-th,
+.gridjs-td {
+  padding: 4px 8px !important;
+  font-size: 14px;
+}
+
+.gridjs-th {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+.gridjs-tr {
+  min-height: 20px;
+}

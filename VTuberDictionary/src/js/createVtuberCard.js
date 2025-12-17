@@ -12,7 +12,7 @@ function createVtuberCard(item) {
   const colorClass = item.color || "default";//TODO:
 
   let cardHTML = `
-      <div class="main ${colorClass}">
+      <div class="VCard_main ${colorClass}">
           <div class="bgBox"></div>
           
           <div class="tableBox">
