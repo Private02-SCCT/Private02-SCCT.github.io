@@ -8,7 +8,7 @@ function handleSearch(i) {
 
     const keyword = i.value.trim();
 
-    resultsDiv.innerHTML = '';
+    writeResults("","status")
     const searchResults = fuseInstance.search(keyword);
     let gridData = [];
 
