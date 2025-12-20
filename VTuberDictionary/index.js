@@ -52,15 +52,8 @@ function handleSearch(i) {
 
         gridElement.classList.remove('is-loading');
 
-        // createVtuberCard
-        const cardContainer = document.getElementById("card-results-container");
-        cardContainer.innerHTML = "";
-        const topFiveResults = searchResults.slice(0, 5);
-        let allCardsHTML = "";
-        topFiveResults.forEach((result) => {
-        allCardsHTML += createVtuberCard(result.item);
-        });
-        cardContainer.innerHTML = allCardsHTML;
+        //VCard
+        createVtuberCard(searchResults)
     } else {
         document.getElementById(statusID).innerText = `キーワード「${keyword}」に一致する結果は見つかりませんでした。`
         if (currentGrid) {

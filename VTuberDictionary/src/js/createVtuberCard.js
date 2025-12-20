@@ -1,4 +1,6 @@
-function createVtuberCard(item) {
+
+
+function createVtuberCardHTML(item) {
   const summaryInfo = `
       <div class="summary-info">
           <p><strong>所属:</strong> ${item.group} (${item.generation})</p>
@@ -37,4 +39,15 @@ function createVtuberCard(item) {
   `;
 
   return cardHTML;
+}
+
+function createVtuberCard(searchResults) {
+    const cardContainer = document.getElementById("card-results-container");
+    cardContainer.innerHTML = "";
+    const topFiveResults = searchResults.slice(0, 5);
+    let allCardsHTML = "";
+    topFiveResults.forEach((result) => {
+        allCardsHTML += createVtuberCardHTML(result.item);
+    });
+    cardContainer.innerHTML = allCardsHTML;
 }
