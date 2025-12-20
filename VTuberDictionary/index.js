@@ -8,13 +8,16 @@ function handleSearch(i) {
 
     const keyword = i.value.trim();
 
-    writeResults("","status")
+    console.info("debug001")
+    // TODO:For debug
+    // writeResults("","status")
     const searchResults = fuseInstance.search(keyword);
     let gridData = [];
 
     const gridElement = document.getElementById("gridTag");
     gridElement.classList.add('is-loading');
 
+    console.info("debug002")
     if (keyword.length === 0) {
         writeResults('キーワードを入力してください。', "status");
         if (currentGrid) {
@@ -24,6 +27,7 @@ function handleSearch(i) {
         return;
     }
 
+    console.info("debug001")
     if (searchResults.length > 0) {
         searchResults.forEach(result => {
             const item = result.item;
