@@ -9,8 +9,6 @@ function handleSearch(i) {
 
     const keyword = i.value.trim();
 
-    document.getElementById(statusID).innerText = "";
-
     const searchResults = fuseInstance.search(keyword);
     let gridData = [];
 
@@ -27,8 +25,8 @@ function handleSearch(i) {
         return;
     }
 
-    console.info("debug001")
     if (searchResults.length > 0) {
+        document.getElementById(statusID).innerText = "";
         searchResults.forEach(result => {
             const item = result.item;
             const row = [
