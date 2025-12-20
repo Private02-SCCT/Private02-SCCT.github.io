@@ -1,23 +1,117 @@
-  {
-    "name": "",
-    "furigana": "",
-    "type": "",
-    "fa": "",
-    "fm": "",
-    "fn": "",
-    "streamtag": "",
-    "production": "",
-    "group": "",
-    "generation": "",
-    "unit": "",
-    "status": "",
-    "YouTube": "",
-    "X": "",
-    "subX": "",
-    "productionIcon": "",
-    "prImg": "",
-    "color":""
+  "name": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
   },
+  "furigana": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "type": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "fa": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "fm": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "fn": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "streamtag": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "production": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "group": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "generation": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "unit": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "status": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "YouTube": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "X": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "subX": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "prImg": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "iconImg": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "ytID": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  },
+  "color": {
+    "content": "",
+    "score": "",
+    "source": "",
+    "modified": ""
+  }
 
 
 .main.red
