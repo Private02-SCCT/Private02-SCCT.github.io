@@ -1,8 +1,7 @@
 let fuseInstance = null;
-
 async function initializeFuse() {
     //Fuse.jsの設定
-    writeResults('データを読み込み中...', resultsDiv)
+    writeResults('データを読み込み中...', "status")
     try {
         const response = await fetch('./data.json');
         if (!response.ok) {
@@ -34,10 +33,10 @@ async function initializeFuse() {
     };
         
         fuseInstance = new Fuse(data, options);
-        writeResults(`検索準備完了。${data.length}件のデータがロードされました。`, resultsDiv);
+        writeResults(`検索準備完了。${data.length}件のデータがロードされました。`, "status");
 
     } catch (error) {
         console.error('Fuse.jsの初期化に失敗:', error);
-        writeResults(`エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`, resultsDiv);
+        writeResults(`エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`, "status");
     }
 }

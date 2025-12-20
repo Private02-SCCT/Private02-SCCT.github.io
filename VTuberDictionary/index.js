@@ -16,7 +16,7 @@ function handleSearch(i) {
     gridElement.classList.add('is-loading');
 
     if (keyword.length === 0) {
-        writeResults('キーワードを入力してください。', resultsDiv);
+        writeResults('キーワードを入力してください。', "status");
         if (currentGrid) {
             currentGrid.updateConfig({ data: [] }).forceRender();
         }
@@ -61,7 +61,7 @@ function handleSearch(i) {
         });
         cardContainer.innerHTML = allCardsHTML;
     } else {
-        writeResults(`キーワード「${keyword}」に一致する結果は見つかりませんでした。`, resultsDiv);
+        writeResults(`キーワード「${keyword}」に一致する結果は見つかりませんでした。`, "status");
         if (currentGrid) {
             currentGrid.updateConfig({ data: [] }).forceRender();
         }
@@ -111,11 +111,7 @@ function makegrid(inputgridData){
 }
 
 
-function writeResults(content,DOM) {
-    DOM.textContent = content
-}
 
-const resultsDiv = document.getElementById("status")
 const searchInput = document.getElementById("search")
 const headerSearchInput = document.getElementById("headerSearch")
 const btn = document.getElementById("btn")
