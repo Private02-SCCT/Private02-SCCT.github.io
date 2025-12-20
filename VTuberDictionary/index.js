@@ -128,4 +128,6 @@ headerBtn.addEventListener('click', function forHeaderBtn() {
 });
 
 
-initializeFuse();
+(async () => {
+    await initializeFuse();
+})();
