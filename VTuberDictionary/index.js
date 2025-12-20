@@ -26,7 +26,6 @@ function handleSearch(i) {
     }
 
     if (searchResults.length > 0) {
-        document.getElementById(statusID).innerText = "";
         searchResults.forEach(result => {
             const item = result.item;
             const row = [
@@ -120,9 +119,11 @@ const btn = document.getElementById("btn")
 const headerBtn = document.getElementById("headerBtn")
 
 btn.addEventListener('click', function forBtn(){
+    document.getElementById(statusID).innerText = "";
     handleSearch(searchInput)
 });
 headerBtn.addEventListener('click', function forHeaderBtn() {
+    document.getElementById(statusID).innerText = "";
     handleSearch(headerSearchInput)
 });
 
