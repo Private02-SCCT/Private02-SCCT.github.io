@@ -69,7 +69,7 @@ function handleSearch(i) {
     }
 }
 
-function makegrid(gridData){
+function makegrid(inputgridData){
         if (currentGrid === null) {
         currentGrid = new gridjs.Grid({
             columns: [
@@ -89,7 +89,7 @@ function makegrid(gridData){
             { name: "Xアカウント", width: "300px" },
             { name: "Xサブアカウント", width: "300px" },
             ],
-            data: gridData,
+            data: inputgridData,
             sort: true,
             pagination: {
             enabled: true,
@@ -99,7 +99,7 @@ function makegrid(gridData){
         }).render(document.getElementById("gridTag"));
         } else {
             currentGrid.updateConfig({ 
-                data: gridData,
+                data: inputgridData,
                 sort: true,
                 pagination: {
                     enabled: true,
