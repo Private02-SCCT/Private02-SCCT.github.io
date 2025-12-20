@@ -1,46 +1,4 @@
-let fuseInstance = null;
 let currentGrid = null;
-
-async function initializeFuse() {
-    writeResults('データを読み込み中...', resultsDiv)
-    try {
-        const response = await fetch('./data.json');
-        if (!response.ok) {
-            throw new Error(`HTTPエラー: ${response.status} - data.jsonが見つかりません。`);
-        }
-        const data = await response.json();
-        
-    const options = {
-        threshold: 0.3,
-        includeScore: true,
-        refIndex: true,
-        keys: [
-            { name: "name", weight: 2.5 },
-            { name: "furigana", weight: 2.0 },
-            { name: "type", weight: 1.0 },
-            { name: "fa", weight: 1.5 },
-            { name: "fm", weight: 1.5 },
-            { name: "fn", weight: 1.5 },
-            { name: "streamtag", weight: 1.5 },
-            { name: "production", weight: 1.0 },
-            { name: "group", weight: 2.0 },
-            { name: "generation", weight: 2.0},
-            { name: "unit", weight: 2.0 },
-            { name: "status", weight: 0.5 },
-            { name: "YouTube", weight: 1.0 },
-            { name: "X", weight: 1.0 },
-            { name: "subX", weight: 0.5 },
-        ],
-    };
-        
-        fuseInstance = new Fuse(data, options);
-        writeResults(`検索準備完了。${data.length}件のデータがロードされました。`, resultsDiv);
-
-    } catch (error) {
-        console.error('Fuse.jsの初期化に失敗:', error);
-        writeResults(`エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`, resultsDiv);
-    }
-}
 
 function handleSearch(i) {
     if (!fuseInstance) {
@@ -89,6 +47,29 @@ function handleSearch(i) {
             gridData.push(row); 
         });
 
+        makegrid(gridData)
+
+        gridElement.classList.remove('is-loading');
+
+        // createVtuberCard
+        const cardContainer = document.getElementById("card-results-container");
+        cardContainer.innerHTML = "";
+        const topFiveResults = searchResults.slice(0, 5);
+        let allCardsHTML = "";
+        topFiveResults.forEach((result) => {
+        allCardsHTML += createVtuberCard(result.item);
+        });
+        cardContainer.innerHTML = allCardsHTML;
+    } else {
+        writeResults(`キーワード「${keyword}」に一致する結果は見つかりませんでした。`, resultsDiv);
+        if (currentGrid) {
+            currentGrid.updateConfig({ data: [] }).forceRender();
+        }
+        gridElement.classList.remove('is-loading');
+    }
+}
+
+function makegrid(gridData){
         if (currentGrid === null) {
         currentGrid = new gridjs.Grid({
             columns: [
@@ -125,28 +106,10 @@ function handleSearch(i) {
                     limit: 10,
                     summary: true 
                 },
-        }).forceRender();
+            }).forceRender();
         }
-
-        gridElement.classList.remove('is-loading');
-
-        // createVtuberCard
-        const cardContainer = document.getElementById("card-results-container");
-        cardContainer.innerHTML = "";
-        const topFiveResults = searchResults.slice(0, 5);
-        let allCardsHTML = "";
-        topFiveResults.forEach((result) => {
-        allCardsHTML += createVtuberCard(result.item);
-        });
-        cardContainer.innerHTML = allCardsHTML;
-    } else {
-        writeResults(`キーワード「${keyword}」に一致する結果は見つかりませんでした。`, resultsDiv);
-        if (currentGrid) {
-            currentGrid.updateConfig({ data: [] }).forceRender();
-        }
-        gridElement.classList.remove('is-loading');
-    }
 }
+
 
 function writeResults(content,DOM) {
     DOM.textContent = content

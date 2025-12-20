@@ -6,5 +6,6 @@
 
 ### 使用ライブラリ・素材
 - **[Fuse.js](https://fusejs.io/)** (MIT License) - 検索機能
+- **[Grid.js](https://gridjs.io/)** (MIT License) - 結果表示機能
 - **[OKUMONO](https://sozaino.site)** - 背景・装飾素材
   - ※素材自体の再利用・再配布は禁止されています。
