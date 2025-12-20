@@ -1,3 +1,4 @@
+時間情報は更新が終わったあと一括置き換えする
 [
     {
     "name": {
@@ -67,22 +68,22 @@
       "modified": ""
     },
     "status": {
-      "content": "",
-      "score": "",
+      "content": "活動中",
+      "score": "2",
       "source": "",
-      "modified": ""
+      "modified": "2025-12-21"
     },
     "YouTube": {
-      "content": "",
-      "score": "",
-      "source": "",
-      "modified": ""
+      "content": "AIChannel",
+      "score": "1",
+      "source": "https://www.youtube.com/@AIChannel",
+      "modified": "2025-12-21"
     },
     "X": {
-      "content": "",
-      "score": "",
-      "source": "",
-      "modified": ""
+      "content": "aichan_nel",
+      "score": "1",
+      "source": "https://x.com/aichan_nel",
+      "modified": "2025-12-21"
     },
     "subX": {
       "content": "",
@@ -96,20 +97,14 @@
       "source": "",
       "modified": ""
     },
-    "iconImg": {
-      "content": "",
-      "score": "",
-      "source": "",
-      "modified": ""
-    },
     "ytID": {
-      "content": "",
-      "score": "",
-      "source": "",
-      "modified": ""
+      "content": "UC4YaOt1yT-ZeyB0OmxHgolA",
+      "score": "1",
+      "source": "https://www.youtube.com/@AIChannel",
+      "modified": "2025-12-21"
     },
     "color": {
-      "content": "",
+      "content": "pink",
       "score": "",
       "source": "",
       "modified": ""

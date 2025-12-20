@@ -95,12 +95,6 @@
       "source": "",
       "modified": ""
     },
-    "iconImg": {
-      "content": "",
-      "score": "",
-      "source": "",
-      "modified": ""
-    },
     "ytID": {
       "content": "",
       "score": "",
