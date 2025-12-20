@@ -1,6 +1,6 @@
 let fuseInstance = null;
 // 将来的にはこの部分をローディング画面に変更
-function writeResults(content,elementID) {
+let writeResults = function (content,elementID) {
     const DOM = document.getElementById(elementID)
     DOM.textContent = content
 }
