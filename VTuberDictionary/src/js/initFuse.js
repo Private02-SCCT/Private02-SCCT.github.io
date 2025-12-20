@@ -1,4 +1,10 @@
 let fuseInstance = null;
+// 将来的にはこの部分をローディング画面に変更
+function writeResults(content,elementID) {
+    const DOM = document.getElementById(elementID)
+    DOM.textContent = content
+}
+
 async function initializeFuse() {
     //Fuse.jsの設定
     writeResults('データを読み込み中...', "status")
@@ -39,10 +45,4 @@ async function initializeFuse() {
         console.error('Fuse.jsの初期化に失敗:', error);
         writeResults(`エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`, "status");
     }
-}
-
-// 将来的にはこの部分をローディング画面に変更
-function writeResults(content,elementID) {
-    const DOM = document.getElementById(elementID)
-    DOM.textContent = content
 }
