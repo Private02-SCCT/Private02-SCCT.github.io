@@ -1,13 +1,7 @@
 let fuseInstance = null;
-// 将来的にはこの部分をローディング画面に変更
-let writeResults = function (content,elementID) {
-    const DOM = document.getElementById(elementID)
-    DOM.textContent = content
-}
 
 async function initializeFuse() {
-    //Fuse.jsの設定
-    writeResults('データを読み込み中...', "status")
+    document.getElementById("status").innerText = "データを読み込み中...";
     try {
         const response = await fetch('./data.json');
         if (!response.ok) {
@@ -39,10 +33,10 @@ async function initializeFuse() {
     };
         
         fuseInstance = new Fuse(data, options);
-        writeResults(`検索準備完了。${data.length}件のデータがロードされました。`, "status");
+        document.getElementById("status").innerText = `検索準備完了。${data.length}件のデータがロードされました。`;
 
     } catch (error) {
         console.error('Fuse.jsの初期化に失敗:', error);
-        writeResults(`エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`, "status");
+        document.getElementById("status").innerText = `エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`;
     }
 }
