@@ -40,3 +40,9 @@ async function initializeFuse() {
         writeResults(`エラー: データの読み込みに失敗しました。詳細をコンソールで確認してください。`, "status");
     }
 }
+
+// 将来的にはこの部分をローディング画面に変更
+function writeResults(content,elementID) {
+    const DOM = document.getElementById(elementID)
+    DOM.textContent = content
+}
