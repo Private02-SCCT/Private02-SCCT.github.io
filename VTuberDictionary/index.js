@@ -1,4 +1,5 @@
 let currentGrid = null;
+let statusID = "status";
 
 function handleSearch(i) {
     if (!fuseInstance) {
@@ -8,18 +9,17 @@ function handleSearch(i) {
 
     const keyword = i.value.trim();
 
-    console.info("debug001")
-    // TODO:For debug
-    // writeResults("","status")
+    document.getElementById(statusID).innerText = "";
+
     const searchResults = fuseInstance.search(keyword);
     let gridData = [];
 
     const gridElement = document.getElementById("gridTag");
     gridElement.classList.add('is-loading');
 
-    console.info("debug002")
     if (keyword.length === 0) {
-        writeResults('キーワードを入力してください。', "status");
+        document.getElementById(statusID).innerText = 'キーワードを入力してください。';
+        
         if (currentGrid) {
             currentGrid.updateConfig({ data: [] }).forceRender();
         }
@@ -65,7 +65,7 @@ function handleSearch(i) {
         });
         cardContainer.innerHTML = allCardsHTML;
     } else {
-        writeResults(`キーワード「${keyword}」に一致する結果は見つかりませんでした。`, "status");
+        document.getElementById(statusID).innerText = `キーワード「${keyword}」に一致する結果は見つかりませんでした。`
         if (currentGrid) {
             currentGrid.updateConfig({ data: [] }).forceRender();
         }
