@@ -112,62 +112,62 @@
   {
     "name": {
       "content": "ときのそら",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://hololive.hololivepro.com/talents/tokino-sora/",
       "modified": ""
     },
     "furigana": {
       "content": "Tokino Sora",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://hololive.hololivepro.com/talents/tokino-sora/",
       "modified": ""
     },
     "type": {
       "content": "VTuber",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://hololive.hololivepro.com/talents/tokino-sora/",
       "modified": ""
     },
     "fa": {
       "content": "そらArt",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://hololive.hololivepro.com/talents/tokino-sora/",
       "modified": ""
     },
     "fm": {
       "content": "🐻💿",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://x.com/tokino_sora",
       "modified": ""
     },
     "fn": {
       "content": "そらとも",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://hololive.hololivepro.com/talents/tokino-sora/",
       "modified": ""
     },
     "streamtag": {
-      "content": "ときのそら生放送",
-      "score": "",
-      "source": "",
+      "content": "ときのそら生放送/ときのそら実況するってよ",
+      "score": "1",
+      "source": "https://hololive.hololivepro.com/talents/tokino-sora/",
       "modified": ""
     },
     "production": {
       "content": "ホロライブプロダクション",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://hololive.hololivepro.com/talents/tokino-sora/",
       "modified": ""
     },
     "group": {
       "content": "ホロライブ",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://hololive.hololivepro.com/talents/tokino-sora/",
       "modified": ""
     },
     "generation": {
       "content": "0期生",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://hololive.hololivepro.com/talents/tokino-sora/",
       "modified": ""
     },
     "unit": {
@@ -178,20 +178,20 @@
     },
     "status": {
       "content": "活動中",
-      "score": "",
+      "score": "2",
       "source": "",
       "modified": ""
     },
     "YouTube": {
       "content": "TokinoSora",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://www.youtube.com/channel/UCp6993wxpyDPHUpavwDFqgg",
       "modified": ""
     },
     "X": {
       "content": "tokino_sora",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://x.com/tokino_sora",
       "modified": ""
     },
     "subX": {
@@ -202,14 +202,14 @@
     },
     "prImg": {
       "content": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tokino-Sora_pr-img_01.png",
-      "score": "",
-      "source": "",
+      "score": "1",
+      "source": "https://hololive.hololivepro.com/talents/tokino-sora/",
       "modified": ""
     },
     "ytID": {
-      "content": "",
-      "score": "",
-      "source": "",
+      "content": "UCp6993wxpyDPHUpavwDFqgg",
+      "score": "1",
+      "source": "https://www.youtube.com/channel/UCp6993wxpyDPHUpavwDFqgg",
       "modified": ""
     },
     "color": {
@@ -219,6 +219,7 @@
       "modified": ""
     }
   },
+  // ^^^
   {
     "name": {
       "content": "ロボ子さん",
