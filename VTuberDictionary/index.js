@@ -29,21 +29,21 @@ function handleSearch(i) {
         searchResults.forEach(result => {
             const item = result.item;
             const row = [
-                item.name,
-                item.furigana,
-                item.type,
-                item.fa,
-                item.fm,
-                item.fn,
-                item.streamtag,
-                item.production,
-                item.group,
-                item.generation,
-                item.unit,
-                item.status,
-                item.YouTube,
-                item.X,
-                item.subX
+                item.name.content,
+                item.furigana.content,
+                item.type.content,
+                item.fa.content,
+                item.fm.content,
+                item.fn.content,
+                item.streamtag.content,
+                item.production.content,
+                item.group.content,
+                item.generation.content,
+                item.unit.content,
+                item.status.content,
+                item.YouTube.content,
+                item.X.content,
+                item.subX.content
             ]
             gridData.push(row); 
         });
