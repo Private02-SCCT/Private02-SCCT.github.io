@@ -3,7 +3,7 @@ let fuseInstance = null;
 async function initializeFuse() {
     document.getElementById("status").innerText = "データを読み込み中...";
     try {
-        const response = await fetch('./data.json');
+        const response = await fetch('./data_c.json'); //TODO:
         if (!response.ok) {
             throw new Error(`HTTPエラー: ${response.status} - data.jsonが見つかりません。`);
         }
