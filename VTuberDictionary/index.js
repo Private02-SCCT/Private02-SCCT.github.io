@@ -13,7 +13,7 @@ function handleSearch(i) {
     let gridData = [];
 
     const gridElement = document.getElementById("gridTag");
-    // gridElement.classList.add('is-loading');
+    gridElement.classList.add('is-loading');
 
     if (keyword.length === 0) {
         document.getElementById(statusID).innerText = 'キーワードを入力してください。';
@@ -21,7 +21,7 @@ function handleSearch(i) {
         if (currentGrid) {
             currentGrid.updateConfig({ data: [] }).forceRender();
         }
-        // gridElement.classList.remove('is-loading');
+        gridElement.classList.remove('is-loading');
         return;
     }
 
@@ -50,7 +50,7 @@ function handleSearch(i) {
 
         makegrid(gridData)
 
-        // gridElement.classList.remove('is-loading');
+        gridElement.classList.remove('is-loading');
 
         //VCard
         createVtuberCard(searchResults)
@@ -59,7 +59,7 @@ function handleSearch(i) {
         if (currentGrid) {
             currentGrid.updateConfig({ data: [] }).forceRender();
         }
-        // gridElement.classList.remove('is-loading');
+        gridElement.classList.remove('is-loading');
     }
 }
 
